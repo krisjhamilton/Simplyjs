@@ -2,8 +2,8 @@ var footballJSON = 'http://pipes.yahoo.com/pipes/pipe.run?_id=de1f6d4f6cd25289cd
 //simply.scrollable();
 ajax({ url: footballJSON, type: 'json' }, function(data) {
 		simply.text({ 
-			title: data.value.items[0].pubDate,
-			subtitle: data.value.items[0].description,
+			title: "hi",
+			subtitle: "hey",
 			body: data.value.items[0].title
 		});
 
