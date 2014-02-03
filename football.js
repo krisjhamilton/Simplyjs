@@ -3,7 +3,7 @@ simply.scrollable();
 ajax({ url: footballJSON, type: 'json' }, function(data) {
 		simply.text({ 
 			//title: data.value.items[0].title,
-			subtitle: data.value.items[0].description,
+			//subtitle: data.value.items[0].description,
 			body: data.value.items[0].pubDate
 		});
 
